@@ -1,0 +1,25 @@
+--- 17-05-2021 [19:38] Initialized Logger ---
+INFO | --- Setting up application ---
+	INFO | Main -> Setting up
+		INFO | Deactivating audio player mode...
+		INFO | Updating main window...
+	INFO | Settings -> Setting up
+		INFO | Settings: Loading window
+		INFO | Opening settings window...
+		INFO | Clearing Command Line...
+		INFO | Updating settings window...
+			INFO | Updating: "Seperation Settings" page
+			INFO | Updating: "Shortcuts" page
+			INFO | Updating: "Customization" page
+			INFO | Updating: "Preferences" page
+		INFO | Loading page with index 0
+			INFO | Updating: "Seperation Settings" page
+	INFO | Translating to "English"...
+		INFO | Main: Retranslating UI
+		INFO | Settings: Retranslating UI
+		INFO | Presets: Retranslating UI
+INFO | --- Finished setup ---
+INFO | --- Closing application ---
+	INFO | Settings: Saving window
+	INFO | Closing windows...
+INFO | --- Done! ---

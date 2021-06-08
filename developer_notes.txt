@@ -1,0 +1,6 @@
+Settings:
+    QCheckbuttons are stored as booleans
+    QComboboxes are stored as string representing the text they were last selecting.
+        If the Combobox is editable the text will be set to the stored text on application load.
+        If it is not editable, it will check if the text exists in the list of options and set it to that. otherwise, nothing will be done.
+    QLineedits are stored as strings

@@ -86,7 +86,7 @@ class Decoder(nn.Module):
 
 class ASPPModule(nn.Module):
 
-    def __init__(self, nin, nout, dilations=(4, 8, 16, 32), activ=nn.ReLU):
+    def __init__(self, nin, nout, dilations=(4, 8, 16), activ=nn.ReLU):
         super(ASPPModule, self).__init__()
         self.conv1 = nn.Sequential(
             nn.AdaptiveAvgPool2d((1, None)),

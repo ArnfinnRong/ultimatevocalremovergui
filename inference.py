@@ -110,7 +110,7 @@ def main():
     args = p.parse_args()
     
     nets = importlib.import_module('lib.nets' + f'_{args.nn_architecture}'.replace('_default', ''), package=None)
-
+    
     dir = 'ensembled/temp'
     for file in os.scandir(dir):
         os.remove(file.path)
